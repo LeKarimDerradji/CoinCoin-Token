@@ -8,7 +8,7 @@ contract CoinCoin {
   string private _symbol;
   uint256 private _totalSupply;
 
-  event Transfer(address indexed sender, address indexed receipient, uint256 amount);
+  event Transfer(address indexed sender, address indexed recipient, uint256 amount);
 
   constructor(address owner_, uint256 totalSupply_) {
     _name = "CoinCoin";
